@@ -1,0 +1,130 @@
+/* --------------------MAIN CSS-------------------- */
+
+p {
+    font-family: 'Mr Eaves San OT', sans-serif;
+    color: #000;
+    line-height: 26px;
+    font-size: 22px;
+    font-weight: 300;
+}
+
+a{
+    text-decoration: none;
+    margin: 30px;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+a:visited{
+    color: #485A76;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    display:inline-block;
+    
+}
+
+/* --------------------H CSS-------------------- */
+
+h2 {
+    font-family: 'MrsEaves', serif;
+    color: #485A76;
+    font-size: 26px;
+}
+
+h3{
+    color: #fff;
+    font-family: 'MrsEaves', serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+h4{
+    color: #fff;
+    font-size: 16px;
+    font-family: 'MrsEaves', serif;
+    text-align: center;
+}
+
+/* --------------------HEADER CSS-------------------- */
+
+.B a:link{
+    font-family: 'MrsEaves', serif;
+    font-size: 22px;
+    color: #909C9D;
+}
+
+.A{
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.B {
+   
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.current_page{
+    background-color: #485A76;
+    color: #FFF !important; 
+    padding: 5px 10px;
+    margin: 15px;
+}
+
+.current_page:hover{
+    text-decoration: none;
+}
+
+.current_page a:visited{
+    color: #FFF;
+}
+
+/* --------------------CONTENT CSS-------------------- */
+
+#about {
+    display: grid;
+    grid-template-rows: 45px 150px 45px 200px;
+    grid-template-areas:
+        "title1"
+        "info1"
+        "title2"
+        "info2";
+    margin: 50px 300px;
+}
+
+#je{
+    grid-area: title1;
+    width: 100%;
+    
+}
+
+#about_je{
+    grid-area: info1;
+    
+}
+
+#part{
+    grid-area: title2;
+}
+
+#about_part{
+    grid-area: info2;
+}
+
+/* --------------------FOOTER CSS-------------------- */
+
+.footer{
+    background-color: #485A76;
+    padding: 15px;
+    
+}
